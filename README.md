@@ -4,7 +4,7 @@ A Spotify-inspired music player built using HTML, CSS, and JavaScript with a cle
 
 ## 🚀 Live Demo
 
-🔗 https://your-live-link
+🔗 [https://your-live-link](https://pixelrnk.github.io/Spotify-Clone/)
 
 ## ✨ Features
 
