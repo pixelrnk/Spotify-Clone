@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify Logo">Spotify</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container">
+       
+        <div class="songList">
+            <h1>Welcome to Spotify</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/1.jpg" alt="song1">
+                    <span class="songName">Love me like you do</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="1" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+
+                 <div class="songItem">
+                    <img src="covers/2.jpg" alt="song1">
+                    <span class="songName">Ae Dil Hai Mushkil</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="2" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+
+                 <div class="songItem">
+                    <img src="covers/3.jpg" alt="song1">
+                    <span class="songName">Tum Hi Ho</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="3" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+
+                 <div class="songItem">
+                    <img src="covers/4.jpg" alt="song1">
+                    <span class="songName">Channa Mereya</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="4" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+
+                 <div class="songItem">
+                    <img src="covers/5.jpg" alt="song1">
+                    <span class="songName">Given to You</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="5" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+
+                 <div class="songItem">
+                    <img src="covers/6.jpg" alt="song1">
+                    <span class="songName">Mere Sapno Ki Rani</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="6" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+
+                 <div class="songItem">
+                    <img src="covers/7.jpg" alt="song1">
+                    <span class="songName">Zinda Bapu</span>
+                    <span class="songListPlay">
+                        <span class="timestamp">05:43 <i id="7" class="fa-solid songItemPlay  fa-circle-play"></i></span>
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <!-- Bottom section with volume slider and icon -->
+    <div class="bottom">
+        <input type="range" id="volumeSlider" min="0" max="100" value="0">
+        <div class="icon">
+            <!-- fontawesome icon -->
+           <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+           <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+           <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+
+        </div>
+        <div class="songInfo">
+    <img src="playing.gif" id="gif" width="42px">
+    <span id="masterSongName">Let me Love You</span>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
